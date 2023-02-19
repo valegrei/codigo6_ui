@@ -177,6 +177,23 @@ class Example1Page extends StatelessWidget {
                         ItemSliderWidget(),
                       ],
                     ),
+                  ),const SizedBox(height: 10.0,),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    physics: const BouncingScrollPhysics(),
+                    child: Row(
+                      children: [
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                        ItemSliderWidget(),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 20.0,),
                   Text(
